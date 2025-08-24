@@ -4,6 +4,7 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
+        backgroundColor: Colors.deepOrangeAccent,
         appBar: (AppBar(
           backgroundColor: Color(0xFF000000),
           centerTitle: true,
@@ -14,7 +15,7 @@ void main() {
           ),
           title: Text("Hello World"),
         )),
-        body: Center(child: Text("Hello World")),
+        body: Center(child: Image.asset("images/icon.jpg")),
       ),
     ),
   );
